@@ -10,4 +10,9 @@ public class TestController {
     public String test() {
         return "Hello World! I'm yeon jun";
     }
+
+    @GetMapping("/test")
+    public String test2() {
+        return "Hello World! I'm yeon jun";
+    }
 }
